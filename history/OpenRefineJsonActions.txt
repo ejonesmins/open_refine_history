@@ -81,7 +81,7 @@
       {
         "from": [
           "Santiago Garcia-Granda",
-          "Santiago García-Granda"
+          "Santiago GarcÃ­a-Granda"
         ],
         "fromBlank": false,
         "fromError": false,
@@ -279,7 +279,7 @@
       "mode": "record-based"
     },
     "baseColumnName": "ISSNs",
-    "urlExpression": "grel:\"https://api.crossref.org/journals/2072-6694\"",
+    "urlExpression": "grel:\"https://portal.issn.org/resource/ISSN\"+value",
     "onError": "set-to-blank",
     "newColumnName": "Journal Details",
     "columnInsertIndex": 9,
